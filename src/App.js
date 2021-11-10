@@ -3,7 +3,7 @@ import './App.css';
 import Button from './components/Button';
 import Input from './components/Input';
 import ClearButton from './components/ClearButton';
-import evaluate from 'mathjs';
+import { evaluate } from 'mathjs';
 
 class App extends Component {
   constructor(props) {
